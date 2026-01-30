@@ -44,3 +44,6 @@ document.body.addEventListener("click", () => {
   const sound = document.getElementById("winkSound");
   sound.play();
 });
+document.addEventListener("keydown", function (event) {
+  console.log(event.key);
+});
