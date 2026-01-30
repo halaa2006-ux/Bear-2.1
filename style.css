@@ -213,6 +213,6 @@ position:absolute;
 .wink .pupil {
   display: none;
 }
-.no-liner::after {
+.wink .no-liner {
   opacity: 0;
 }
