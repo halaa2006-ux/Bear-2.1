@@ -47,7 +47,7 @@ document.body.addEventListener("click", () => {
 document.addEventListener("keydown", function (event) {
  if (event.key === "w") {
     rightEye.classList.add("wink");
-
+    rightEye.classlist.add("no-liner");
     setTimeout(() => {
       rightEye.classList.remove("wink");
     }, 300);
