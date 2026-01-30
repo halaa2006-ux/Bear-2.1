@@ -207,9 +207,9 @@ position:absolute;
   box-shadow: 0 0 0 3px black;
 }
 .wink {
-  height: 10px !important;
+  height: 0px !important;
 }
 
-.wink .pupil {
+.wink.pupil {
   display: none;
 }
