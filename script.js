@@ -35,7 +35,12 @@ rightEye.style.height = "60px";
   rightPupil.style.opacity = "1";
   rightEye.classList.remove("no-liner");
 });
+face.addEventListener("click", () => {
+  winkSound.currentTime = 0; // rewind
+  winkSound.play();
+});
 
 document.body.addEventListener("click", () => {
-  winkSound.play();
+  const sound = document.getElementById("winkSound");
+  sound.play();
 });
