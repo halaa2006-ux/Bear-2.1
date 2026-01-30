@@ -50,6 +50,7 @@ document.addEventListener("keydown", function (event) {
     rightEye.classList.add("no-liner");
     setTimeout(() => {
       rightEye.classList.remove("wink");
+      rightEye.classList.remove("no-liner");
     }, 300);
   }
 });
