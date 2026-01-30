@@ -206,3 +206,10 @@ left:15px;
 position:absolute;
   box-shadow: 0 0 0 3px black;
 }
+.wink {
+  height: 10px !important;
+}
+
+.wink .pupil {
+  display: none;
+}
